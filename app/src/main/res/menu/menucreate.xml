@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="power"
+        android:icon="@drawable/power"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:title="Refresh"
+                android:id="@+id/refreshnevid"/>
+            <item
+                android:title="Settings"
+                >
+
+                <menu>
+                    <item
+                        android:title="Delete"
+                        android:id="@+id/deletenavbarid"/>
+                    <item
+                        android:title="Mute"
+                        android:id="@+id/mutenavbarid"/>
+                    <item
+                        android:title="Language"
+                        android:id="@+id/languagenavbarid"/>
+
+
+
+                </menu>
+
+            </item>
+            <item
+                android:title="share"
+                android:id="@+id/sharenevid"
+                />
+            <item
+                android:title="Rate Us"
+                android:id="@+id/rateusnavid"
+                />
+
+        </menu>
+
+
+
+    </item>
+
+
+</menu>
